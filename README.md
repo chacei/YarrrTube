@@ -1,16 +1,10 @@
 # YarrrTube
 
-Because YouTube Red pisses me off, I decided to see if I could gen up some handy dandy scripts so I could just STEAL from YouTube instead. The `YarrrTube` tool allows you to download videos and audio from YouTube as MP4/MP3 files.
+YarrrTube allows you to download videos and audio from YouTube as MP4/MP3 files.
 
 ## Installation
 
 To clone the repo, run:
-
-```
-https://github.com/chacei/YarrrTube.git
-```
-
-Or if that doesn't work, the below option - still not sure when the SSH cloning is enforced or not...
 
 ```
 git clone https://github.com/chacei/YarrrTube.git
