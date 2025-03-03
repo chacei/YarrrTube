@@ -1,21 +1,38 @@
 # YarrrTube
 
-Because YouTube Red pisses me off, I decided to see if I could gen up some handy dandy scripts so I could just STEAL from them and really lay into the big corporations. Please peruse to your heart's content.
+Because YouTube Red pisses me off, I decided to see if I could gen up some handy dandy scripts so I could just STEAL from YouTube instead. The `YarrrTube` tool allows you to download videos and audio from YouTube as MP4/MP3 files.
 
 ## Installation
 
+To clone the repo, run:
+
+```
+https://github.com/chacei/YarrrTube.git
+```
+
+Or if that doesn't work, the below option - still not sure when the SSH cloning is enforced or not...
+
 ```
 git clone https://github.com/chacei/YarrrTube.git
+```
+
+Once cloned, you'll need to install `yt-dlp`, which is a tool for downloading content from YouTube and other websites. You can either just run `pip install yt-dlp`, or alternatively install it in a virtual environment with the steps below:
+
+```
 cd YarrrTube
 python3 -m venv venv
 source venv/bin/activate
 pip install yt-dlp
 ```
 
-Use the instructions below for the things you would like to download. Once finished, you may run `deactivate` to exit out of the virtual environment. If you wish to download more videos at a later date, run `source venv/bin/activate` from the repo home directory to re-enter the virtual environment before running scripts.
+You can run `deactivate` to exit out of the virtual environment after you've finished downloading your videos. If you wish to download more at a later date, run `source venv/bin/activate` from the repo home directory to re-enter the virtual environment before running scripts.
 
-## Live-to-MP3
+## Usage
 
-This is a script that converts any YouTube Live videos to MP3s. Audio only, so handy for podcasts and such.
+Simply run:
 
-To use, simply run `python3 Live-to-MP3.py` and follow the instructions to download your Live audios.
+```
+python3 YarrrTube.py
+```
+
+and follow the instructions to download your content.
